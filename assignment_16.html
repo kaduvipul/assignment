@@ -2,38 +2,94 @@
 <html>
 
 <head>
-    <title>Assignment -16</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Assignment-16</title>
+    <style>
+        .head {
+            width: 100%;
+            height: 400px;
+        }
+
+        .container {
+          
+            height: 400px;
+            background-color: #3e2222;
+
+        }
+
+        .img-card {
+            margin: 20px;
+            padding: 10px;
+            background-color: #bfa9a9;
+            width: 200px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 10px;
+            border: 1px solid black;
+
+        }
+
+        .img {
+            border-radius: 5px;
+            height: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+
+        .img-name {
+            text-align: center;
+        }
+
+        .price {
+            text-align: center;
+        }
+    </style>
 </head>
 
-<body>
-    <h1 class="header">Cafe 24</h1>
-    <div class="menu">
-        <img src="https://static.vecteezy.com/system/resources/previews/003/529/350/non_2x/coffee-logo-free-vector.jpg"
-            height="200px" alt="Coffee" class="img" />
-        <div class="frame-left">
-            <b><u>HOT Coffee</u></b>
-            <div class="menu-list">
-                <i>Expresso - 35/-</i><br />
-                <i>Americano - 45/-</i><br />
-                <i>Cappuccino - 75/-</i><br />
-                <i>Cafe Latte - 64/-</i><br>
-                <i>Hot Chocolate -65/-</i>
+<body >
+        <img class="head" src="caf.jpg" alt="">
+        <div class="container">
+            <div class="img-card">
+                <img src="tea.jpg" class="img" alt=" img">
+                <h1 class="img-name"> Special tea </h1>
+                <p style="text-align: center;">★★★★★</p>
+                <h2 class="price">Rs. <sup>₹</sup> 25</h2>
+
+            </div>
+
+            <div class="img-card">
+                <img src="blacktea.jpg" class="img" alt=" img">
+                <h1 class="img-name">Black Tea</h1>
+                <p style="text-align: center;">★★★★☆</p>
+                <h2 class="price">Rs. <sup>₹</sup> 30</h2>
+
+            </div>
+            <div class="img-card">
+                <img src="coffee1.jpg" class="img" alt=" img">
+                <h1 class="img-name">Hot Coffee</h1>
+                <p style="text-align: center;">★★★★★</p>
+                <h2 class="price">Rs. <sup>₹</sup>49</h2>
+            </div>
+            <div class="img-card">
+                <img src="black coffee.jpg" class="img" alt=" img">
+                <h1 class="img-name">Black Coffee</h1>
+                <p style="text-align: center;">★★★☆☆</p>
+                <h2 class="price">Rs. <sup>₹</sup> 99</h2>
+
+
+            </div>
+            <div class="img-card">
+                <img src="coldcoffe.jpg" class="img" alt=" img">
+                <h1 class="img-name">Cold Coffee</h1>
+                <p style="text-align: center;">★★★★☆</p>
+                <h2 class="price">Rs. <sup>₹</sup> 199</h2>
+
+
             </div>
         </div>
 
-        <div class="frame-right">
-            <b><u>COLD Coffee</u></b>
-            <div class="menu-list">
-                <i>Iced Americano - 55/-</i><br />
-                <i>Iced Frappe - 65/-</i><br />
-                <i>Iced Cappuccino - 75/-</i><br />
-                <i>Hazelnut Frappe - 85/-</i><br>
-                <i>Iced Caramello - 75/-</i>
-            </div>
-        </div>
-
-        <div class="bottom"><i>....Thanks for visting our Cafe....</i></div>
+ 
 </body>
 
 </html>
