@@ -5,41 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        /* Sidebar Styles */
-.sidebar {
-  width: 150px;
-  background-color: #4d1313;
-  padding: 20px;
-  height: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-}
-.menu{
-    background-color: white;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    flex-wrap: wrap;
-}
-.menu-text{
-    margin-left: 5px;
-    font-size: 20px;
-}
-/* Content Styles */
-.content {
-  margin-left: 220px;
-  padding: 20px;
-}
-.menu:hover{
-    background-color: rgb(223, 176, 176);
-}
-
-    </style>
+    <link rel="stylesheet" href="./../style.css"/>
 </head>
 
 <body>
@@ -47,25 +13,25 @@
 
     <div class="sidebar">
 
-        <a class="menu">
+        <a class="menu" href="assignment_20.html">
             <img src="https://img.icons8.com/?size=20&id=2797&format=png&" class="icon"/>
             <span class="menu-text"> Home</span>
         </a>
-        <a class="menu">
+        <a class="menu active-menu" href="status.html">
             <img src="https://img.icons8.com/?size=20&id=66002&format=png&color=000000" class="icon"/>
             <span class="menu-text">Status</span>
         </a>
-        <a class="menu">
+        <a class="menu" href="doubts.html">
             <img src="https://img.icons8.com/?size=20&id=dXcF4GJslMsS&format=png&color=000000" class="icon"/>
             <span class="menu-text">Doubts</span>
         </a>
-        <a class="menu">
+        <a class="menu" href="profile.html">
             <img src="https://img.icons8.com/?size=20&id=60655&format=png&color=000000" class="icon"/>
             <span class="menu-text">Profile</span>
         </a>
     </div>
     <div class="content">
-       <img src="radhe.jpg" height="600px">
+       <h1>this is status page</h1>
     </div>
 </div>
 </body>

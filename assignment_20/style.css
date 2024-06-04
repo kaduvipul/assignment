@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #4d1313;
+
+}
+
+.menu {
+    background-color: white;
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-text {
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+/* Content Styles */
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background-color: white;
+}
+
+.menu:hover {
+    background-color: rgb(223, 176, 176);
+}
+
+.active-menu {
+    background-color: rgb(223, 176, 176);
+}
+
+.botton-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4d1313;
+}
+
+/* Media query for screens up to 600px width */
+@media screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    /* Media query for screens between 600px and 768px width */
+    @media screen and (min-width: 600px) and (max-width: 768px) {
+        .sidebar {
+            display: none;
+        }
+    }
+
+    /* Media query for screens between 769px and 992px width */
+    @media screen and (min-width: 769px) and (max-width: 992px) {
+        /* Add your CSS rules here */
+    }
+
+    /* Media query for screens between 993px and 1200px width */
+    @media screen and (min-width: 993px) and (max-width: 1200px) {
+        /* Add your CSS rules here */
+    }
