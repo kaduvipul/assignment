@@ -47,33 +47,49 @@ body {
     background-color: rgb(223, 176, 176);
 }
 
-.botton-nav {
+.bottom-nav {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     background-color: #4d1313;
+    display: none;
+    height: 50px;
 }
-
+.bottom-icon{
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}
 /* Media query for screens up to 600px width */
 @media screen and (max-width: 600px) {
     .sidebar {
         display: none;
     }
+    .bottom-nav{
+        display:flex;
+        justify-content: space-around;
+    }
+}
+
 
     /* Media query for screens between 600px and 768px width */
     @media screen and (min-width: 600px) and (max-width: 768px) {
         .sidebar {
             display: none;
         }
+        .bottom-nav{
+            display: flex;
+        }
     }
 
     /* Media query for screens between 769px and 992px width */
     @media screen and (min-width: 769px) and (max-width: 992px) {
         /* Add your CSS rules here */
+   
     }
-
     /* Media query for screens between 993px and 1200px width */
     @media screen and (min-width: 993px) and (max-width: 1200px) {
         /* Add your CSS rules here */
+       
     }
